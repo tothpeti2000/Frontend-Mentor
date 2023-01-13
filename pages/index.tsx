@@ -15,6 +15,8 @@ const Home = () => {
         <Link href="/challenges/product-preview-card">
           Product Preview Card
         </Link>
+
+        <Link href="/challenges/interactive-rating">Interactive Rating</Link>
       </main>
     </>
   );
