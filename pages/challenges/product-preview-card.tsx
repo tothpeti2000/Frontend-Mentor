@@ -1,6 +1,6 @@
 import Head from "next/head";
 import ProductCard from "../../components/product-preview-card/ProductCard";
-import favicon from "../../public/assets/product-preview-card/favicon.png";
+import favicon from "../../public/favicon.png";
 
 const ProductPreviewCard = () => {
   return (
@@ -15,7 +15,7 @@ const ProductPreviewCard = () => {
         <link rel="icon" href={favicon.src} />
       </Head>
 
-      <main className="flex min-h-screen items-center justify-center bg-cream">
+      <main className="flex min-h-screen items-center justify-center bg-ppc-cream">
         <div className="w-5/6 md:w-2/3 lg:w-1/2 xl:w-5/12 2xl:w-1/3">
           <ProductCard />
         </div>

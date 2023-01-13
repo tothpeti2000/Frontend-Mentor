@@ -19,7 +19,7 @@ const ProductCard = () => (
     />
 
     <div className="flex flex-col justify-between p-5 sm:p-8">
-      <p className="mb-2 text-xs font-medium tracking-extraWide text-darkGrayishBlue">
+      <p className="mb-2 text-xs font-medium tracking-extraWide text-ppc-darkGrayishBlue">
         PERFUME
       </p>
 
@@ -27,21 +27,21 @@ const ProductCard = () => (
         Gabrielle Essence Eau De Parfum
       </h1>
 
-      <p className="mb-4 text-sm leading-5 text-veryDarkBlue">
+      <p className="mb-4 text-sm leading-5 text-ppc-veryDarkBlue">
         A floral, soral and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL
       </p>
 
       <div className="mb-3 flex items-center">
         <p
-          className={`${fraunces.className} mr-4 text-3xl font-bold text-darkCyan`}
+          className={`${fraunces.className} mr-4 text-3xl font-bold text-ppc-darkCyan`}
         >
           $149.99
         </p>
-        <p className="text-xs text-darkGrayishBlue line-through">$169.99</p>
+        <p className="text-xs text-ppc-darkGrayishBlue line-through">$169.99</p>
       </div>
 
-      <button className="flex w-full items-center justify-center rounded-lg bg-darkCyan py-4 text-xs font-semibold tracking-wider text-white transition-colors hover:bg-green-900 active:bg-veryDarkBlue">
+      <button className="flex w-full items-center justify-center rounded-lg bg-ppc-darkCyan py-4 text-xs font-semibold tracking-wider text-white transition-colors hover:bg-green-900 active:bg-ppc-veryDarkBlue">
         <CartIcon />
         <p className="ml-3">Add to Cart</p>
       </button>
