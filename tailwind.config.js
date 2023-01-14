@@ -25,6 +25,13 @@ module.exports = {
           grayishBlue: "hsl(220, 15%, 55%)",
           darkBlue: "hsl(218, 44%, 22%)",
         },
+        nftc: {
+          softBlue: "hsl(215, 51%, 70%)",
+          cyan: "hsl(178, 100%, 50%)",
+          veryDarkBlueMain: "hsl(217, 54%, 11%)",
+          veryDarkBlueCard: "hsl(216, 50%, 16%)",
+          veryDarkBlueLine: "hsl(215, 32%, 27%)",
+        },
       },
       letterSpacing: {
         extraWide: "0.4em",
