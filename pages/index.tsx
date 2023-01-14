@@ -21,6 +21,8 @@ const Home = () => {
         <Link href="/challenges/qr-code">QR Code</Link>
 
         <Link href="/challenges/nft-preview-card">NFT Preview Card</Link>
+
+        <Link href="/challenges/order-summary">Order Summary</Link>
       </main>
     </>
   );
