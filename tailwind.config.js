@@ -20,6 +20,11 @@ module.exports = {
           darkBlue: "hsl(213, 19%, 18%)",
           veryDarkBlue: "hsl(216, 12%, 8%)",
         },
+        qrc: {
+          lightGrey: "hsl(212, 45%, 89%)",
+          grayishBlue: "hsl(220, 15%, 55%)",
+          darkBlue: "hsl(218, 44%, 22%)",
+        },
       },
       letterSpacing: {
         extraWide: "0.4em",
