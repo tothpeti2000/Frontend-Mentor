@@ -41,7 +41,7 @@ module.exports = {
         },
         spc: {
           veryDarkBlue: "hsl(233, 47%, 7%)",
-          darkDesaturatedBlu: "hsl(244, 38%, 16%)",
+          darkDesaturatedBlue: "hsl(244, 38%, 16%)",
           softViolet: "hsl(277, 64%, 61%)",
           whiteParagraph: "hsla(0, 0%, 100%, 0.75)",
           whiteHeading: "hsla(0, 0%, 100%, 0.6)",
