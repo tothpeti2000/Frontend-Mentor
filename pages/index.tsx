@@ -23,6 +23,8 @@ const Home = () => {
         <Link href="/challenges/nft-preview-card">NFT Preview Card</Link>
 
         <Link href="/challenges/order-summary">Order Summary</Link>
+
+        <Link href="/challenges/stats-preview-card">Stats Preview Card</Link>
       </main>
     </>
   );
