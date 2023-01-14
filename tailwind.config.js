@@ -46,6 +46,13 @@ module.exports = {
           whiteParagraph: "hsla(0, 0%, 100%, 0.75)",
           whiteHeading: "hsla(0, 0%, 100%, 0.6)",
         },
+        ccs: {
+          brightOrange: "hsl(31, 77%, 52%)",
+          darkCyan: "hsl(184, 100%, 22%)",
+          veryDarkCyan: "hsl(179, 100%, 13%)",
+          transparentWhite: "hsla(0, 0%, 100%, 0.75)",
+          veryLightGrey: "hsl(0, 0%, 95%)",
+        },
       },
       letterSpacing: {
         extraWide: "0.4em",

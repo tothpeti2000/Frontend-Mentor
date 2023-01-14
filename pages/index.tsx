@@ -25,6 +25,8 @@ const Home = () => {
         <Link href="/challenges/order-summary">Order Summary</Link>
 
         <Link href="/challenges/stats-preview-card">Stats Preview Card</Link>
+
+        <Link href="/challenges/card-columns">Card Columns</Link>
       </main>
     </>
   );
