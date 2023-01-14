@@ -32,9 +32,23 @@ module.exports = {
           veryDarkBlueCard: "hsl(216, 50%, 16%)",
           veryDarkBlueLine: "hsl(215, 32%, 27%)",
         },
+        os: {
+          paleBlue: "hsl(225, 100%, 94%)",
+          brightBlue: "hsl(245, 75%, 52%)",
+          veryPaleBlue: "hsl(225, 100%, 98%)",
+          desaturatedBlue: "hsl(224, 23%, 55%)",
+          darkBlue: "hsl(223, 47%, 23%)",
+        },
       },
       letterSpacing: {
         extraWide: "0.4em",
+      },
+      // Since Tailwind classes will be turned into regular CSS rules in the styles folder, we have to use ../ to reference the SVGs correctly
+      backgroundImage: {
+        "os-mobile-pattern":
+          "url(../public/assets/order-summary/mobile-background.svg)",
+        "os-desktop-pattern":
+          "url(../public/assets/order-summary/desktop-background.svg)",
       },
     },
   },
