@@ -50,6 +50,10 @@ const Home = () => {
           <li>
             <Link href="/challenges/profile-card">Profile Card</Link>
           </li>
+
+          <li>
+            <Link href="/challenges/faq-accordion">FAQ Accordion Card</Link>
+          </li>
         </ul>
       </main>
     </>
