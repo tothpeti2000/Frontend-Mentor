@@ -12,21 +12,41 @@ const Home = () => {
       </Head>
 
       <main>
-        <Link href="/challenges/product-preview-card">
-          Product Preview Card
-        </Link>
+        <ul>
+          <li>
+            <Link href="/challenges/product-preview-card">
+              Product Preview Card
+            </Link>
+          </li>
 
-        <Link href="/challenges/interactive-rating">Interactive Rating</Link>
+          <li>
+            <Link href="/challenges/interactive-rating">
+              Interactive Rating
+            </Link>
+          </li>
 
-        <Link href="/challenges/qr-code">QR Code</Link>
+          <li>
+            <Link href="/challenges/qr-code">QR Code</Link>
+          </li>
 
-        <Link href="/challenges/nft-preview-card">NFT Preview Card</Link>
+          <li>
+            <Link href="/challenges/nft-preview-card">NFT Preview Card</Link>
+          </li>
 
-        <Link href="/challenges/order-summary">Order Summary</Link>
+          <li>
+            <Link href="/challenges/order-summary">Order Summary</Link>
+          </li>
 
-        <Link href="/challenges/stats-preview-card">Stats Preview Card</Link>
+          <li>
+            <Link href="/challenges/stats-preview-card">
+              Stats Preview Card
+            </Link>
+          </li>
 
-        <Link href="/challenges/card-columns">Card Columns</Link>
+          <li>
+            <Link href="/challenges/card-columns">Card Columns</Link>
+          </li>
+        </ul>
       </main>
     </>
   );
