@@ -46,6 +46,10 @@ const Home = () => {
           <li>
             <Link href="/challenges/card-columns">Card Columns</Link>
           </li>
+
+          <li>
+            <Link href="/challenges/profile-card">Profile Card</Link>
+          </li>
         </ul>
       </main>
     </>
