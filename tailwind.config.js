@@ -53,6 +53,12 @@ module.exports = {
           transparentWhite: "hsla(0, 0%, 100%, 0.75)",
           veryLightGrey: "hsl(0, 0%, 95%)",
         },
+        pc: {
+          darkCyan: "hsl(185, 75%, 39%)",
+          veryDarkDesaturatedBlue: "hsl(229, 23%, 23%)",
+          darkGrayishBlue: "hsl(227, 10%, 46%)",
+          darkGrey: "hsl(0, 0%, 59%)",
+        },
       },
       letterSpacing: {
         extraWide: "0.4em",
