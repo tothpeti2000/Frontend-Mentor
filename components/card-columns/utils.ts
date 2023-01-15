@@ -9,14 +9,27 @@ export const getBorderRadiusClasses = (idx: number) => {
   }
 };
 
-export const getColor = (idx: number) => {
+export const getColorClass = (idx: number) => {
   switch (idx) {
     case 0:
-      return "brightOrange";
+      return "text-ccs-brightOrange";
     case 1:
-      return "darkCyan";
+      return "text-ccs-darkCyan";
     case 2:
-      return "veryDarkCyan";
+      return "text-ccs-veryDarkCyan";
+    default:
+      return "";
+  }
+};
+
+export const getBgColorClass = (idx: number) => {
+  switch (idx) {
+    case 0:
+      return "bg-ccs-brightOrange";
+    case 1:
+      return "bg-ccs-darkCyan";
+    case 2:
+      return "bg-ccs-veryDarkCyan";
     default:
       return "";
   }
