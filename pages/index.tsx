@@ -50,6 +50,12 @@ const Home = () => {
           <li>
             <Link href="/challenges/profile-card">Profile Card</Link>
           </li>
+
+          <li>
+            <Link href="/challenges/social-proof-section">
+              Social Proof Section
+            </Link>
+          </li>
         </ul>
       </main>
     </>
