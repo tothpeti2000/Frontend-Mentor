@@ -4,7 +4,7 @@ import CTAButton from "./CTAButton";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col items-center justify-between px-6 sm:px-10 md:px-16 lg:flex-row-reverse lg:px-20 xl:px-32">
+    <section className="mb-24 flex flex-col items-center justify-between px-6 sm:px-10 md:px-16 lg:flex-row-reverse lg:px-20 xl:px-32">
       <Image
         src={heroIllustration}
         alt="Hero"
