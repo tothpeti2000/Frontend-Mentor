@@ -50,6 +50,12 @@ const Home = () => {
           <li>
             <Link href="/challenges/profile-card">Profile Card</Link>
           </li>
+
+          <li>
+            <Link href="/challenges/manage-landing-page">
+              Manage Landing Page
+            </Link>
+          </li>
         </ul>
       </main>
     </>
