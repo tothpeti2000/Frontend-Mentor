@@ -13,7 +13,7 @@ const Navbar = () => {
   const handleClick = () => setIsOpen((isOpen) => !isOpen);
 
   return (
-    <nav className="fixed flex h-32 w-full items-center justify-between px-6 lg:px-20 xl:px-32">
+    <nav className="fixed flex h-32 w-full items-center justify-between px-6 sm:px-10 md:px-16 lg:px-20 xl:px-32">
       <Image src={logo} alt="Logo" />
 
       <MobileNav isOpen={isOpen} />
