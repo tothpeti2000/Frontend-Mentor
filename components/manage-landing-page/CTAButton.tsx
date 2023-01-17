@@ -11,11 +11,11 @@ const CTAButton = (props: Props) => {
     <button
       className={`${
         props.isReversed
-          ? "bg-mlp-veryLightGrey text-mlp-brightRed"
-          : "bg-mlp-brightRed text-mlp-veryLightGrey"
+          ? "bg-mlp-veryLightGrey text-mlp-brightRed hover:text-opacity-60"
+          : "bg-mlp-brightRed text-mlp-veryLightGrey hover:opacity-60"
       } ${
         displayShadow ? "shadow-lg shadow-red-400" : "shadow-none"
-      } rounded-full px-9 py-3 font-semibold transition hover:bg-opacity-60 lg:px-8 lg:py-3 lg:text-xs`}
+      } rounded-full px-9 py-3 font-semibold transition lg:px-8 lg:py-3 lg:text-xs`}
     >
       {props.label || "Get Started"}
     </button>
