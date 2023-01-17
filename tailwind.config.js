@@ -77,6 +77,10 @@ module.exports = {
           "url(../public/assets/order-summary/mobile-background.svg)",
         "os-desktop-pattern":
           "url(../public/assets/order-summary/desktop-background.svg)",
+        "mlp-mobile-simplify-pattern":
+          "url(../public/assets/manage-landing-page/bg-simplify-section-mobile.svg)",
+        "mlp-desktop-simplify-pattern":
+          "url(../public/assets/manage-landing-page/bg-simplify-section-desktop.svg)",
       },
     },
   },
