@@ -2,8 +2,8 @@ import Image from "next/image";
 import { useState } from "react";
 import closeIcon from "../../../public/assets/manage-landing-page/icon-close.svg";
 import hamburgerIcon from "../../../public/assets/manage-landing-page/icon-hamburger.svg";
-import logo from "../../../public/assets/manage-landing-page/logo.svg";
 import CTAButton from "../CTAButton";
+import Logo from "../Logo";
 import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
 
@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed flex h-32 w-full items-center justify-between px-6 sm:px-10 md:px-16 lg:px-20 xl:px-32">
-      <Image src={logo} alt="Logo" />
+      <Logo />
 
       <MobileNav isOpen={isOpen} />
       <DesktopNav />
